@@ -89,6 +89,11 @@ namespace Generic_Collections {
                 var custKey = CustDictionary[key];
                 Console.WriteLine($"{custKey.Name}");
             }
+            var Color = "black";
+            var Error = false;
+
+            Color = (Error == true) ? "red" : "green";
+
         }
     }
 }
